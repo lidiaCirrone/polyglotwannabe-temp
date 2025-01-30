@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Polyglot Wannabe – unsolicited facts about languages</title>
     <link rel="stylesheet" href="style.css" />
@@ -17,22 +18,7 @@
     </script>
   </head>
   <body>
-    <main>
-      <p class="heading">
-        🇮🇹, lover of 🇬🇧, been in a relationship with 🇫🇷 and 🇪🇸, dating 🇷🇺 but
-        still thinking about 🇵🇹. Oh, wait, 🇸🇪 just walked past me! And look at
-        that 🇩🇪!
-      </p>
-      <p class="subheading">-- coming soon --</p>
-      <!-- TODO
-        position: fixed;
-        bottom: 0;
-        padding: 2rem;
-        background: linear-gradient(0deg, #3f3833, transparent);
-      -->
-      <nav>
-        <a href="/" class="current">home</a> <a href="/about">about</a> <a href="/now">now</a> <a href="/projects">projects</a>
-      </nav>
-    </main>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
