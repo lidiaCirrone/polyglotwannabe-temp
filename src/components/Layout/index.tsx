@@ -2,20 +2,36 @@ import clsx from 'clsx';
 import React from 'react'
 import { Link, Outlet, useLocation } from 'react-router'
 
+const links = [
+  {
+    page: 'home',
+    to: '/',
+  },
+  {
+    page: 'about',
+    to: '/about',
+  },
+  {
+    page: 'now',
+    to: '/now',
+  },
+  {
+    page: 'projects',
+    to: '/projects',
+  },
+]
+
 const Layout = () => {
   const { pathname } = useLocation();
   return (
-    <>
+    <div {...(pathname === '/' && { className: 'home' })}>
       <main>
         <Outlet />
       </main>
       <nav>
-        <Link to="/" className={clsx(pathname === '/' && "current")}>home</Link>
-        <Link to="/about" className={clsx(pathname === '/about' && "current")}>about</Link>
-        <Link to="/now" className={clsx(pathname === '/now' && "current")}>now</Link>
-        <Link to="/projects" className={clsx(pathname === '/projects' && "current")}>projects</Link>
+        {links.map(link => <Link to={link.to} className={clsx(pathname === link.to && "current")}>{link.page}</Link>)}
       </nav>
-    </>
+    </div>
   )
 }
 

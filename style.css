@@ -198,8 +198,8 @@ nav a:hover {
   main {
     margin-bottom: 0;
   }
-  
-  nav {
+
+  div:not(.home)>nav {
     background: transparent;
     left: auto;
     right: 0;
