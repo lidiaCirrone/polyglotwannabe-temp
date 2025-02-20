@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "rebuild": "rm -rf dist && npm run build",
+    "rebuild": "rm -rf dist && npm run build && cp ./index.html ./dist/about/index.html && cp ./index.html ./dist/now/index.html && cp ./index.html ./dist/projects/index.html",
     "lint": "eslint .",
     "preview": "vite preview"
   },
