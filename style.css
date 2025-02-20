@@ -198,15 +198,4 @@ nav a:hover {
   main {
     margin-bottom: 0;
   }
-
-  div:not(.home)>nav {
-    background: transparent;
-    left: auto;
-    right: 0;
-    width: fit-content;
-    height: 100%;
-    padding: 0 1.5rem 0 0;
-    flex-direction: column;
-    gap: 1rem;
-  }
 }
