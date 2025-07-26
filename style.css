@@ -104,7 +104,7 @@ nav a.current {
   text-transform: uppercase;
 }
 
-a:hover {
+a:hover, main:not(.social-icons-row) a:hover {
   text-decoration-style: dashed;
 }
 
