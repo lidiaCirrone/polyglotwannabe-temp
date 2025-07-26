@@ -191,11 +191,3 @@ nav a:hover {
     padding: 4rem;
   }
 }
-
-/* md */
-
-@media (min-width: 48rem) {
-  main {
-    margin-bottom: 0;
-  }
-}
