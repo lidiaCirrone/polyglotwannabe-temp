@@ -15,12 +15,12 @@ const About = () => {
       <section>
         <p className="bio-row">
           <a
-            href="https://www.linkedin.com/company/myedu-digital"
+            href="https://www.linkedin.com/company/accessiway"
             target="_blank"
-          >MyEdu</a>, <span className="bold">Frontend Developer</span></p>
-        <p className="bio-row italic small">Apr 2024 - Present</p>
+          >AccessiWay</a>, <span className="bold">Frontend Developer</span></p>
+        <p className="bio-row italic small">May 2025 - Present</p>
         <p className="bio-row">
-          Rebuilding an educational platform in Next.js, TypeScript and Tailwind CSS. Integrating APIs and using Server Side Rendering to optimize performances. Developing custom plugins for the CKEditor library to add functionalities to the rich text editors used to create and edit lessons content and tests. Creating scripts in Node.js to add pre-commit hooks for Git and using Valibot to validate form inputs.
+          Developing a Chrome Extension used by accessibility experts to manage accessibility analyses and provide reports to clients. The extension is built in React, with TypeScript and Chakra UI, and relies on API calls to keep the data updated.
         </p>
       </section>
       <p className="subheading mt-2 text-left">
