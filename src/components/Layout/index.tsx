@@ -11,6 +11,10 @@ const links = [
     to: '/about',
   },
   {
+    page: 'blog',
+    to: 'https://www.polyglotwannabe.com/blog/',
+  },
+  {
     page: 'now',
     to: '/now',
   },
