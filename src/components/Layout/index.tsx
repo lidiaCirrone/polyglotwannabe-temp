@@ -12,7 +12,7 @@ const links = [
   },
   {
     page: 'blog',
-    to: 'https://www.polyglotwannabe.com/blog/',
+    to: 'https://polyglotwannabe.com/blog/',
   },
   {
     page: 'now',
