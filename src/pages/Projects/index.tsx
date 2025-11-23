@@ -2,7 +2,32 @@ const Projects = () => {
   return (
     <>
     <h2>PROJECTS</h2>
-      <section>
+      <section className="mt-2">
+        <p className="bio-row">
+          <a href="https://www.lecoccoledimammairene.org/" target="_blank">Le coccole di mamma Irene</a>
+        </p>
+        <p className="bio-row italic small">Aug 2025 - Present</p>
+        <p className="bio-row">
+          Developing the WordPress website of my cousin's NGO, a group of amazing volunteers that visit NICUs and help premature newborn babies.
+        </p>
+        <p className="bio-row small">
+          🔗
+          <a href="https://www.lecoccoledimammairene.org/" target="_blank" className="secondary"
+            >https://www.lecoccoledimammairene.org/</a>
+        </p>
+        <div className="social-icons-row">
+          <a href="https://www.facebook.com/archeplaceinc" target="_blank">
+            <i className="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/archeplaceinc" target="_blank">
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/archeplaceinc/" target="_blank">
+            <i className="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </section>
+      <section className="mt-2">
         <p className="bio-row">
           <a href="https://bit.ly/3MMeH7N" target="_blank"
             >Natura Di Stagione</a>
@@ -39,8 +64,8 @@ const Projects = () => {
           </a>
         </div>
       </section>
-      <section>
-        <p className="bio-row mt-2">
+      <section className="mt-2">
+        <p className="bio-row">
           <a href="http://archeplace.org/" target="_blank">Arche Place</a>
         </p>
         <p className="bio-row italic small">Aug 2024 - Dec 2024</p>
@@ -65,8 +90,8 @@ const Projects = () => {
           </a>
         </div>
       </section>
-      <section>
-        <p className="bio-row mt-2">
+      <section className="mt-2">
+        <p className="bio-row">
           <a href={`https://www.polyglotwannabe.com/projects/buy-and-sell/`} target="_blank">Buy and Sell</a>
         </p>
         <p className="bio-row italic small">Feb 2024</p>

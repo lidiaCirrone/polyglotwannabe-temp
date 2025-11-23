@@ -20,7 +20,7 @@ const About = () => {
           >AccessiWay</a>, <span className="bold">Frontend Developer</span></p>
         <p className="bio-row italic small">May 2025 - Present</p>
         <p className="bio-row">
-          Developing a Chrome Extension used by accessibility experts to manage accessibility analyses and provide reports to clients. The extension is built in React, with TypeScript and Chakra UI, and relies on API calls to keep the data updated.
+          Developing tools used by accessibility experts to carry out analyses and provide reports to clients. React with Vite, TypeScript, Chakra UI, Tailwind, Playwright for e2e tests, and other cool stuff.
         </p>
       </section>
       <p className="subheading mt-2 text-left">
