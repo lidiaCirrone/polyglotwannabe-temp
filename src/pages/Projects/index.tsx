@@ -8,7 +8,7 @@ const Projects = () => {
         </p>
         <p className="bio-row italic small">Aug 2025 - Present</p>
         <p className="bio-row">
-          Developing the WordPress website of my cousin's NGO, a group of amazing volunteers that visit NICUs and help premature newborn babies.
+          Developing the WordPress website of my cousin's NGO, a group of amazing volunteers that visit NICUs and provide additional care to premature newborn babies.
         </p>
         <p className="bio-row small">
           🔗

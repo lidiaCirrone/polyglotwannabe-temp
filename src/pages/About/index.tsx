@@ -17,10 +17,10 @@ const About = () => {
           <a
             href="https://www.linkedin.com/company/accessiway"
             target="_blank"
-          >AccessiWay</a>, <span className="bold">Frontend Developer</span></p>
+          >Accessiway</a>, <span className="bold">Frontend Developer</span></p>
         <p className="bio-row italic small">May 2025 - Present</p>
         <p className="bio-row">
-          Developing tools used by accessibility experts to carry out analyses and provide reports to clients. React with Vite, TypeScript, Chakra UI, Tailwind, Playwright for e2e tests, and other cool stuff.
+          Developing tools used by accessibility experts to carry out analyses, and dashboards where companies can look at metrics and audits in detail. React with Vite, TypeScript, Chakra UI, React Aria, Tailwind, Playwright for e2e tests, and other cool stuff.
         </p>
       </section>
       <p className="subheading mt-2 text-left">

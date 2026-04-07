@@ -149,6 +149,10 @@ nav a:hover {
   font-weight: 500;
 }
 
+.border-b-dotted {
+  border-bottom: 2px dotted var(--foreground);
+}
+
 .italic {
   font-style: italic;
 }
