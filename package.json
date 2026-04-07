@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "rebuild": "rm -rf dist && npm run build && cp ./index.html ./dist/about/index.html && cp ./index.html ./dist/now/index.html && cp ./index.html ./dist/projects/index.html",
+    "build": "tsc -b && vite build && copy dist\\index.html dist\\about\\ && copy dist\\index.html dist\\now\\ && copy dist\\index.html dist\\projects\\",
     "lint": "eslint .",
     "preview": "vite preview"
   },
