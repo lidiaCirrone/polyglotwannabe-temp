@@ -6,7 +6,6 @@ const Home = () => {
         still thinking about 🇵🇹. Oh, wait, 🇸🇪 just walked past me! And look at
         that 🇩🇪!
       </p>
-      <p className="subheading">-- coming soon --</p>
       {/* TODO
       position: fixed;
       bottom: 0;
