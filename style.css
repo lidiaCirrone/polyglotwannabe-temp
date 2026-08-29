@@ -161,6 +161,10 @@ nav a:hover {
   line-height: 1.5em;
 }
 
+.mt-1 {
+  margin-top: 1em;
+}
+
 .mt-2 {
   margin-top: 2em;
 }
