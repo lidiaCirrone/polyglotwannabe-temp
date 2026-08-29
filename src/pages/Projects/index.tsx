@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <>
-    <h2>PROJECTS</h2>
+      <h2>PROJECTS</h2>
       <section className="mt-2">
         <p className="bio-row">
           <a href="https://www.lecoccoledimammairene.org/" target="_blank">Le coccole di mamma Irene</a>
@@ -32,9 +32,10 @@ const Projects = () => {
           <a href="https://bit.ly/3MMeH7N" target="_blank"
             >Natura Di Stagione</a>
         </p>
-        <p className="bio-row italic small">Mar 2024 - Present</p>
+        <p className="bio-row italic small">Mar 2024 - Aug 2026</p>
         <p className="bio-row">
-          Working alongside two brilliant minds (<a
+          Worked alongside two brilliant minds (
+          <a
             href="https://www.linkedin.com/in/simone-filippo-antonicchio/"
             target="_blank"
             className="secondary"
@@ -100,13 +101,14 @@ const Projects = () => {
           hapi for the server and Firebase to handle Google login. Database,
           backend and frontend hosted separately.
         </p>
-        <p className="bio-row small">
-          🔗
-          <a href={`https://www.polyglotwannabe.com/projects/buy-and-sell/`} target="_blank" className="secondary"
-            >/projects/buy-and-sell/</a>
-        </p>
+        <iframe
+          className="mt-1"
+          title="Buy and sell showcasing video"
+          src="https://www.polyglotwannabe.com/projects/buy_and_sell.mp4"
+          style={{borderColor: "var(--foreground)", borderStyle: "solid"}}
+        ></iframe>
       </section>
-      </>
+    </>
   )
 }
 
