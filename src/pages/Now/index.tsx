@@ -7,6 +7,10 @@ const Now = () => {
         "A page that tells you what this person is focused on at this point in
         their life" - more info on <a href="https://nownownow.com/about" target="_blank">nownownow.com</a>
       </p>
+      <h3 className="space-b-0">October 2026</h3>
+      <p className="text-left leading-6">
+        Can I just say I wish the last 12 months had never happened? This year has been too much... I'm trying to focus on singing, playing ukulele, and baking biscuits and <a href="https://en.wikipedia.org/wiki/Crostata" target="_blank">crostate</a>, but it's not always easy. Let's just say I hope 2027 will bring some joy, or at least a bit of peace!
+      </p>
       <h3 className="space-b-0">April 2026</h3>
       <p className="text-left leading-6">
         Man, it always feels like yesterday when I come here and update this page, and then I realize that it's been months since the last time.<br />So, let's see... life got a bit empty so I filled it with things to keep me busy, and now I'm doing too much (typical me). I'm not traveling or going to concerts as much as I used to (and would like to), but that's because I'm trying to focus on making my flat a litte bit more <a href="https://en.wiktionary.org/wiki/mysig" target="_blank">mysigt</a> and cooking/baking more, which is something I've always loved and never dedicate enough time to. I spent a couple of weeks coughing my lungs out so singing was not an option, but I'll now hopefully get back on track since the final concert is coming up in May and I always choose easy songs (*cough* *cough*).
