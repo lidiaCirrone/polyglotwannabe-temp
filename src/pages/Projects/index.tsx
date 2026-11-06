@@ -29,7 +29,7 @@ const Projects = () => {
       </section>
       <section className="mt-2">
         <p className="bio-row">
-          <a href="https://bit.ly/3MMeH7N" target="_blank"
+          <a href="https://linktr.ee/naturadistagione" target="_blank"
             >Natura Di Stagione</a>
         </p>
         <p className="bio-row italic small">Mar 2024 - Aug 2026</p>
@@ -50,8 +50,8 @@ const Projects = () => {
         </p>
         <p className="bio-row small">
           🔗
-          <a href="https://bit.ly/3MMeH7N" target="_blank" className="secondary"
-            >https://bit.ly/3MMeH7N</a>
+          <a href="https://linktr.ee/naturadistagione" target="_blank" className="secondary"
+            >https://linktr.ee/naturadistagione</a>
         </p>
         <div className="social-icons-row">
           <a href="https://www.facebook.com/naturadistagione/" target="_blank">
@@ -92,9 +92,7 @@ const Projects = () => {
         </div>
       </section>
       <section className="mt-2">
-        <p className="bio-row">
-          <a href={`https://www.polyglotwannabe.com/projects/buy-and-sell/`} target="_blank">Buy and Sell</a>
-        </p>
+        <p className="bio-row bold italic">Buy and Sell</p>
         <p className="bio-row italic small">Feb 2024</p>
         <p className="bio-row">
           Developed a mock buy and sell platform in Angular and Node.js using
